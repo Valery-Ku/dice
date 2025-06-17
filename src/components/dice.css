@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+background: #5974DE;
+background: radial-gradient(circle, #5974de8b 0%, rgba(252, 70, 106, 0.512) 100%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header {
+    text-align: center;      
+    font-size: 42px; 
+    margin: 0;
+    padding: 40px;
+    color: #FC466B;
+    background-color: #ffffff4e;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    font-family: 'Arial', sans-serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.Dice__images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.Dice__part {
+    width: 400px;
+    height: auto;
+}
+
+.Dice__gif {
+    width: 400px; 
+    height: auto; 
+}
+
+.Button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    }
+
+.ThrowDice {
+    font-size: 32px;
+    padding: 15px 30px;
+    background-color: #FF6F7A;
+    color: white;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+    font-weight: bold; 
+}
+
+.ThrowDice:hover {
+    background-color: #D94E6A; 
+}
+
+.ThrowDice:active {
+    background-color: #C43A5D;
+    transform: scale(0.98);
+}
+
+@media (max-width: 768px) {
+    .header {
+        font-size: 28px;
+        padding: 20px;
+    }
+
+.Dice__images { padding: 60px;}
+
+    .Dice__part {
+        width: 90%;
+        max-width: 300px;
+           }
+
+    .Dice__gif {
+        width: 90%;
+        max-width: 300px;
+    }
+
+    .ThrowDice {
+        font-size: 24px;
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .header {
+        font-size: 36px;
+        padding: 30px;
+    }
+
+    .Dice__part {
+        width: 80%;
+        max-width: 350px;
+    }
+
+    .Dice__gif {
+        width: 80%;
+        max-width: 350px;
+    }
+
+    .ThrowDice {
+        font-size: 28px;
+        padding: 12px 25px;
+    }
+}
