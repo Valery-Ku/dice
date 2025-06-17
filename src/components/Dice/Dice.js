@@ -1,4 +1,4 @@
-import styles from "./Dice.module.css";
+import styles from "./dice.module.css";
 import React, { useState } from 'react';
 
 export default function Dice({ images, throwGif, initialImage }) {
